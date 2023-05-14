@@ -1,1 +1,228 @@
 /* Estilos Pagina de Inicio */
+/* CAMBIOS GLOBALES */
+body {
+  font-family: sans-serif; /* Para sacarle el "serif" a la fuente */
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h3 {
+  margin: 0;
+}
+
+/* ESTILOS HEADER */
+
+header {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between; /* Esta propiedad la uso en este lugar para que me separe los dos section que tengo dentro del header */
+  overflow: hidden; /* Esta propiedad me recorta o esconde las partes de la imgane que se salen del header */
+  background-color: #f29a2e;
+  position: fixed;
+}
+h2 {
+  margin: 0;
+  background-image: url(/assets/IMG/bandera1.png);
+  background-size: 100% 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+}
+nav {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+/* ANCHOR QUE CONTIENE A LA IMAGEN DEL HEADER */
+.grupoLogo {
+  display: flex;
+  align-items: center;
+}
+/* IMAGEN ESPECIFICA DEL LOGO */
+.logoImg {
+  height: 87px;
+  margin-top: 2mm;
+}
+
+/* ANCHOR QUE CONTIENE A LA IMAGEN DEL LOG-IN */
+.logInImg {
+  display: flex;
+  align-items: center;
+}
+
+/* IMAGEN ESPECIFICA DEL LOG_IN */
+.logInImg {
+  height: 40px;
+  margin-right: 2rem;
+}
+nav a {
+  margin-right: 2rem;
+}
+nav a:hover {
+  color: white;
+}
+@media (max-width: 700px) {
+  header {
+    flex-direction: column;
+  }
+}
+
+/* ESTILOS MAIN */
+/* ESTILOS SECTION 1 */
+.section1 {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  height: 800px;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/assets/IMG/backgroundSection1.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.rectangulo_section1 {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.555
+  ); /* EL ULTIMO VALOR INDICA EL NIVEL DE TRASPARENCIA */
+  width: 700px;
+  height: 300px;
+}
+
+.rectangulo_section1 p {
+  padding: 10px;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: white;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ESTILOS SECTION 2 */
+.section2 {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  height: 800px;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/assets/IMG/backgroundSection2.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.rectangulo_section2 {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.555
+  ); /* EL ULTIMO VALOR INDICA EL NIVEL DE TRASPARENCIA */
+  width: 1600px;
+  height: 700px;
+}
+
+.titulo_section2 {
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+}
+
+.parrafos_section2 {
+  padding: 10px;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  color: white;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+}
+
+.separador1 {
+  display: flex;
+  margin: 0;
+  width: 100%;
+  height: 90px;
+  text-align: center;
+  justify-content: center;
+  align-items: self-end;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+
+/* ESTILOS SECTION 3 */
+.section3 {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  height: 600px;
+  justify-content: space-between; /* PARA QUE LOS ELEMENTOS TENGAN ESPACIOS ENTRE ELLOS  */
+  align-items: center; /* PARA CENTRAR LOS ELEMENTOS VERTICALMENTE  */
+  text-align: center;
+  justify-content: space-evenly; /* PARA GENERAR UN ESPACIO RESPECTO A LOS BORDES (EN AMBOS LADOS) */
+  background-color: rgb(0, 0, 0);
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  color: rgb(255, 255, 255);
+}
+
+.elipse1 {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-size: cover;
+  background-image: url(/assets/IMG/c1.jpg);
+}
+.elipse2 {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-size: cover;
+  background-image: url(/assets/IMG/c2.jpg);
+}
+.elipse3 {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-size: cover;
+  background-image: url(/assets/IMG/c3.jpg);
+}
+.elipse4 {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-size: cover;
+  background-image: url(/assets/IMG/c4.png);
+}
+
+/* ESTILOS FOOTER */
