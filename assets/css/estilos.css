@@ -1,0 +1,130 @@
+body{
+    overflow-y: hidden;
+}
+
+.inicio{
+    height: 115px;
+   
+    
+}
+
+.texto-imagen{
+
+    position: absolute;
+    top: 10%;
+    left: 16%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bienvenida{
+
+    position: absolute;
+    top: 10%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.quienes-somos{
+
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.planes{
+
+    position: absolute;
+    top: 10%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+
+
+.destinos{
+
+    position: absolute;
+    top: 10%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+
+.servicios-adicionales{
+
+    position: absolute;
+    top: 10%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;   
+}
+
+.reseñas{
+
+    position: absolute;
+    top: 10%;
+    left: 77%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+
+.contactanos{
+
+    position: absolute;
+    top: 10%;
+    left: 87%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.image-container{
+    flex-basis: 15%;
+    
+}
+
+.image-container img {
+
+    width: 200px;
+    height: 1000%;
+   
+}
+
+.contenido-principal{
+    flex-basis: 60%;
+    
+}
