@@ -1,0 +1,156 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: #f29a2e;
+    position: fixed;
+}
+
+.tituloHeader {
+    margin: 0;
+    background-image: url(/assets/IMG/bandera1.png);
+    background-size: 100% 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+nav {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.grupoLogo {
+    display: flex;
+    align-items: center;
+}
+
+.logoImg {
+    height: 87px;
+    margin-top: 2mm;
+}
+
+.grupoLogInImg {
+    display: flex;
+    align-items: center;
+}
+
+.logInImg {
+    height: 40px;
+    margin-right: 2rem;
+}
+
+nav a {
+    margin-right: 2rem;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(300, 4%, 84%);
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    grid-template-areas:
+      "destinos regiones"
+      "costa_atlantica costa_pacifica"
+      "antioquia santander"
+      "valle_del_cauca uraba";
+  }
+  
+  .destinos {
+    grid-area: destinos;
+    background-image: url("/IMG/vuelo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .regiones {
+    grid-area: regiones;
+    background-color: #00838f; /* Azul oscuro */
+  }
+  
+  .costa_atlantica {
+    grid-area: costa_atlantica;
+    background-color: #00bcd4; /* Azul claro */
+  }
+  
+  .costa_pacifica {
+    grid-area: costa_pacifica;
+    background-color: #ffff00; /* Amarillo */
+  }
+  
+  .antioquia {
+    grid-area: antioquia;
+    background-color: #ef6c00; /* Naranja oscuro */
+  }
+  
+  .santander {
+    grid-area: santander;
+    background-color: #ff8a65; /* Naranja claro */
+  }
+  
+  .valle_del_cauca {
+    grid-area: valle_del_cauca;
+    background-color: #6d4c41; /* Marrón */
+  }
+  
+  .uraba {
+    grid-area: uraba;
+    background-color: #ff9800; /* Naranja */
+  }
+  
+  section {
+    height: 150px;
+    border: 4px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+
+footer {
+text-align: center;
+background-color: #f29a2e;
+padding: 20px;
+position: fixed;
+bottom: 0;
+left: 0;
+right: 0;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+font-weight: 500;
+font-size: 20px;
+color: rgb(0, 0, 0);
+}
+    
